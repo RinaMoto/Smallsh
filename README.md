@@ -2,6 +2,8 @@
 
 A bash-like shell application written in C.
 
+	Syntax: 
+	command [arg1 arg2 ...] [< input_file] [> output_file] [&]
 * Provides a prompt for running commands 
 * Handles blank lines and comments, which are lines beginning with the # character
 * Executes 3 built-in commands: exit, cd, and status
